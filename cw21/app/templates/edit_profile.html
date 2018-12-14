@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div align="center">
+  <div class="cen">
+  <table  class="table table-striped table-bordered clen">
+    <tr>
+      <td>
+        <form action="" method="post" >
+          <div align="center">
+            {{ form.hidden_tag() }}
+            <p>
+                {{ form.username.label }}<br>
+                {{ form.username(size=32) }}<br>
+            </p>
+            <p>
+                {{ form.about_me.label }}<br>
+                {{ form.about_me(cols=50, rows=4) }}<br>
+            </p>
+            <button type="submit" class="btn btn-default">Submit</button><br>
+          </div>
+        </form>
+      </td>
+    </tr>
+  </table>
+  </div>
+</div>
+{% endblock %}

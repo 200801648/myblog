@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if form %}
+    <div align="center">
+      <div class="row" align="center">
+          <div class="thumbnail" style="border: 1px solid #dddd; width:350px;">
+            <table class="table">
+              <form action="" method="post" align="center">
+                  {{ form.hidden_tag() }}
+                  <p>
+                      <label for="">Want to add a new post?</label><br>
+                      {{ form.post(cols=32, rows=4) }}<br>
+                  </p>
+                  <button type="submit" class="btn btn-large btn-success">Submit</button><br>
+              </form>
+            </table>
+          </div>
+      </div>
+    </div>
+    {% endif %}
+{% endblock %}
