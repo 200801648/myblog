@@ -1,0 +1,116 @@
+2018-12-08 13:40:18,969 ERROR: Exception on / [GET] [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/views.py", line 53, in index
+    prev_url=prev_url)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/base.html", line 40, in top-level template code
+    </body>
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/base.html", line 41, in block "scripts"
+    </html>
+jinja2.exceptions.UndefinedError: there is no parent block called 'scripts'.
+2018-12-08 13:40:19,519 ERROR: Exception on / [GET] [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/views.py", line 53, in index
+    prev_url=prev_url)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/base.html", line 40, in top-level template code
+    </body>
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/base.html", line 41, in block "scripts"
+    </html>
+jinja2.exceptions.UndefinedError: there is no parent block called 'scripts'.
+2018-12-08 13:40:19,654 ERROR: Exception on / [GET] [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/views.py", line 53, in index
+    prev_url=prev_url)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/base.html", line 40, in top-level template code
+    </body>
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/templates/base.html", line 41, in block "scripts"
+    </html>
+jinja2.exceptions.UndefinedError: there is no parent block called 'scripts'.
+2018-12-08 13:40:28,305 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:43]
+2018-12-08 13:43:02,230 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:43]
+2018-12-08 13:46:44,948 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:43]
+2018-12-08 13:51:28,469 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:43]
+2018-12-12 16:48:21,326 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]

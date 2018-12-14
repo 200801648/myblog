@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="well">
+      <div class="media">
+  		<div class="media-body">
+          <p class="text-right"><a href="{{ url_for('user', username=post.author.username) }}">{{ post.author.username }}</a></p>
+          <p>{{ post.body }}</p>
+          <ul class="list-inline list-unstyled">
+  			<li><span><i class="glyphicon glyphicon-calendar"></i>{{post.timestamp}}</span></li>
+			</ul>
+       </div>
+    </div>
+  </div>
+</div>

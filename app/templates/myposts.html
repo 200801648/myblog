@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+{% for post in posts %}
+    {% include '_post.html' %}
+{% endfor %}
+<ul class="pager">
+  {% if prev_url %}
+  <li><a href="{{ prev_url }}">Previous</a></li>
+  {% endif %}
+  {% if next_url %}
+  <li><a href="{{ next_url }}">Next</a></li>
+  {% endif %}
+</ul>
+{% endblock %}

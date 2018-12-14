@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for todo in incomplete %}
+<div align="center">
+  <table class="table table-striped" style="border: 1px solid #dddd; width:800px;">
+    <tr>
+      <td>{{ todo.title }}
+        <div class="" style="float:right" >
+          <a href="{{ url_for('delete', id=todo.id) }}">
+            <span class="glyphicon glyphicon-trash"></span>
+            <a href="{{ url_for('edit', id=todo.id) }}">
+              <span class="glyphicon glyphicon-pencil"></span></a>
+          <a href="{{ url_for('complete', id=todo.id) }}">
+            <span class="glyphicon glyphicon-ok"></span>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>{{ todo.text }}</td>
+    </tr>
+    <tr>
+      <td>{{ todo.time }}</td>
+    </tr>
+  </table>
+</div>
+{% endfor %}
+{% endblock %}

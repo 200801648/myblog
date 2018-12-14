@@ -1,0 +1,29 @@
+2018-12-12 16:53:51,758 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:08:07,239 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:10:42,578 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:10:44,473 ERROR: Exception on /favicon.ico [GET] [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/flask/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/views.py", line 12, in favicon
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+NameError: name 'os' is not defined
+2018-12-12 17:11:56,967 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:13:13,053 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:14:29,112 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:19:26,448 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:23:30,342 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:24:23,485 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:40]
+2018-12-12 17:28:15,433 INFO: Microblog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:32]
+2018-12-12 17:28:43,561 INFO: blog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:32]
+2018-12-12 17:52:15,494 INFO: blog startup [in /Users/wangxiyang/Desktop/leeds/2nd year/comp2011/cw2/app/__init__.py:32]
